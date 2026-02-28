@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
 
-const WHATSAPP_URL = "https://wa.me/1234567890?text=Hi!%20I'd%20like%20to%20order%20from%20ChampX%20Cookies";
+const WHATSAPP_URL = "https://wa.me/94750533743?text=Hi!%20I'd%20like%20to%20order%20from%20ChampX%20Cookies";
 
 const HeroSection = () => {
   return (
