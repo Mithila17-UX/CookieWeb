@@ -5,7 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/champxcookies',
+  // For Vercel deployment we serve the app from the domain root,
+  // so we keep the base path as "/" (Vite's default).
+  base: "/",
   server: {
     host: "::",
     port: 8080,
